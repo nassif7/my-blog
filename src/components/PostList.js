@@ -18,8 +18,9 @@ class PostList extends Component {
             <div className="description">
               <h2>{post.title}</h2>
               <p>{post.body}</p>
+              <p>{post.userId}</p>
             </div>
-            <UserHeader userId={post.userId} />
+            <UserHeader userId={post.userId}/>
           </div>
         </div>
       );
